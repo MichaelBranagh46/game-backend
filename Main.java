@@ -86,6 +86,7 @@ public class Main extends Canvas implements Runnable {
 				timer += 1000;
 				System.out.println("FPS: " + frames);
 				frames = 0;
+				
 			}
 			
 		}

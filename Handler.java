@@ -23,4 +23,20 @@ public class Handler {
 		
 	}
 	
+	public void addObject(GameObject obj) {
+		
+		objects.add(obj);
+		
+	}
+	
+	public void removeObject(GameObject obj) {
+		
+		if(objects.contains(obj)) {
+			
+			objects.remove(obj);
+			
+		}
+		
+	}
+	
 }
